@@ -1,0 +1,23 @@
+{
+  "name": "algocasts-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^23.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fe-eze/AlgoCasts-master.git"
+  },
+  "author": "Fe-eze Anya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fe-eze/AlgoCasts-master/issues"
+  },
+  "homepage": "https://github.com/Fe-eze/AlgoCasts-master#readme"
+}
