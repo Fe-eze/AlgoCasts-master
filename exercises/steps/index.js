@@ -17,6 +17,24 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+// MY SOLUTION #1
+function steps(n) {
+	var pound = " ".repeat(n);
+
+	for(var i = 0; i < n; i++){
+		pound = pound.replace(/ /i, "#");
+		console.log(pound);
+	}
+}
+
+// MY SOLUTION #2
+// function steps(n) {
+// 	for(var i = 0; i < n; i++){
+// 		var spaces = " ".repeat(n-i-1);
+// 		var pounds = "#".repeat(i+1);
+// 		var log = pounds + spaces;
+// 		console.log(log);
+// 	}
+// }
 
 module.exports = steps;
